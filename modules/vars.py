@@ -11,7 +11,7 @@ OWNER = int(environ.get("OWNER", "8873050060"))
 CREDIT = environ.get("CREDIT", "")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '8873050060').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
 AUTH_USER = os.environ.get('AUTH_USERS', '').split(',')
